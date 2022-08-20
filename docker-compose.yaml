@@ -12,6 +12,7 @@
       image: 'tomcat:9'
       ports:
         - "8080-8085:8080"
-      volumes:                                                                          - "/mnt/cicd/pipeline:/usr/local/tomcat/webapps"         
+      volumes:        
+        - "/mnt/cicd/pipeline:/usr/local/tomcat/webapps"         
                                                                                       
 
